@@ -1,0 +1,14 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp2"
+             x:Class="MauiApp2.MainPage">
+
+    <StackLayout Spacing="50">
+        <Button Text="Змінити колір" Clicked="ChangeColorClicked" />
+        <Button Text="Load Image" Clicked="LoadImageClicked" />
+        <Image x:Name="myImage" />
+        <Button Text="Draw Square" Clicked="DrawSquareClicked" />
+        <BoxView x:Name="square" BackgroundColor="Black" WidthRequest="100" HeightRequest="100" />
+    </StackLayout>
+
+</ContentPage>
